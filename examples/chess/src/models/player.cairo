@@ -4,7 +4,7 @@ use starknet::ContractAddress;
 enum Color {
     White,
     Black,
-    None,
+    None
 }
 
 #[derive(Model, Drop, Serde)]

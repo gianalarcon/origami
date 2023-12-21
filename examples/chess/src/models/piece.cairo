@@ -8,7 +8,7 @@ struct Piece {
     #[key]
     position: Vec2,
     color: Color,
-    piece_type: PieceType,
+    piece_type: PieceType
 }
 
 #[derive(Copy, Drop, Serde, Introspect)]
@@ -92,6 +92,6 @@ enum PieceType {
     Rook,
     Queen,
     King,
-    None,
+    None
 }
 
